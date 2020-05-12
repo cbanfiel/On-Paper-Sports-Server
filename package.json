@@ -1,0 +1,23 @@
+{
+  "name": "on-paper-sports-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fetch": "^1.1.0",
+    "mongoose": "^5.9.12"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
